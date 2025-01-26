@@ -60,10 +60,6 @@ Widget navigationBar() {
       ],
     ),
     child: ClipRRect(
-      borderRadius: const BorderRadius.only(
-        topLeft: Radius.circular(30),
-        topRight: Radius.circular(30),
-      ),
       child: BottomNavigationBar(
         selectedItemColor: const Color(0xFF5F67EA),
         selectedFontSize: 12,
